@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BHWatchDogService", "XYNTService.vcproj", "{C5EA8AB6-1389-4A9C-B58E-846495440B1B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrayRefresher", "..\TrayRefresher\TrayRefresher.vcproj", "{3096B910-9798-4EAF-ACEC-7FF00CBB6B98}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		ReleaseRmote = ReleaseRmote
+		RmoteDebug = RmoteDebug
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C5EA8AB6-1389-4A9C-B58E-846495440B1B}.Debug.ActiveCfg = Debug|Win32
+		{C5EA8AB6-1389-4A9C-B58E-846495440B1B}.Debug.Build.0 = Debug|Win32
+		{C5EA8AB6-1389-4A9C-B58E-846495440B1B}.Release.ActiveCfg = Release|Win32
+		{C5EA8AB6-1389-4A9C-B58E-846495440B1B}.Release.Build.0 = Release|Win32
+		{C5EA8AB6-1389-4A9C-B58E-846495440B1B}.ReleaseRmote.ActiveCfg = ReleaseRmote|Win32
+		{C5EA8AB6-1389-4A9C-B58E-846495440B1B}.ReleaseRmote.Build.0 = ReleaseRmote|Win32
+		{C5EA8AB6-1389-4A9C-B58E-846495440B1B}.RmoteDebug.ActiveCfg = RmoteDebug|Win32
+		{C5EA8AB6-1389-4A9C-B58E-846495440B1B}.RmoteDebug.Build.0 = RmoteDebug|Win32
+		{3096B910-9798-4EAF-ACEC-7FF00CBB6B98}.Debug.ActiveCfg = Debug|Win32
+		{3096B910-9798-4EAF-ACEC-7FF00CBB6B98}.Debug.Build.0 = Debug|Win32
+		{3096B910-9798-4EAF-ACEC-7FF00CBB6B98}.Release.ActiveCfg = Release|Win32
+		{3096B910-9798-4EAF-ACEC-7FF00CBB6B98}.Release.Build.0 = Release|Win32
+		{3096B910-9798-4EAF-ACEC-7FF00CBB6B98}.ReleaseRmote.ActiveCfg = Release|Win32
+		{3096B910-9798-4EAF-ACEC-7FF00CBB6B98}.ReleaseRmote.Build.0 = Release|Win32
+		{3096B910-9798-4EAF-ACEC-7FF00CBB6B98}.RmoteDebug.ActiveCfg = Debug|Win32
+		{3096B910-9798-4EAF-ACEC-7FF00CBB6B98}.RmoteDebug.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

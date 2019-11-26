@@ -1,0 +1,1 @@
+BHWatchDogService.exe -u

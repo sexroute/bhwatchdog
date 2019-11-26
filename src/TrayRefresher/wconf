@@ -1,0 +1,51 @@
+# -*-encoding: utf-8 -*-
+# vim: syntax=python
+
+import os
+
+# 项目名称
+# waf dist时用于打包
+APPNAME  = 'TrayRefresher'
+
+# 产品版本号: 必须4位, 格式 x.x.x.x
+VERSION  = 'http://192.168.1.6/it/trunk/Common/Version/version.txt'
+
+# VC 解决方案路径
+SOLUTION = r"TrayRefresher.vcproj"
+
+# 需要替换版本号的资源文件
+RC       = None
+
+
+# 忽略模式，当文件列表中包含目录或模式时使用
+# 可以为glob或re
+EXCLUDE = [".svn"]
+
+# 导出目录, 通常可设为IT目录
+EXPORT_DIR  = r"E:\BH5000_IT-4.2.x\Release"
+# 导出目录对应的SVN提交地址
+UPLOAD_URL  = "http://192.168.1.6/it/trunk/Release"
+
+# 导出文件列表, 可使用目录或通配 (参考设置 EXCLUDE)
+EXPORT   = {
+    "Binary"    : [
+                        # exe/dll 等导出目录
+                        os.path.join(EXPORT_DIR, u"自动启动程序")
+                        ,
+                        # 文件列表
+                        [
+                            "../../bin/Release/TrayRefresher.exe",
+                       ]
+                  ],
+
+    "PDB"       : [
+                        # pdb 导出目录
+                        os.path.join(EXPORT_DIR, "pdb", "WatchDog")
+                        ,
+                        # pdb 文件列表
+                        [
+                            "../../bin/Release/TrayRefresher.pdb",
+                        ]
+                  ],
+}
+
