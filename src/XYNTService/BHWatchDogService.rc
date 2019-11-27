@@ -53,8 +53,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 4,9,0,0
- PRODUCTVERSION 4,9,0,3
+ FILEVERSION 4,9,0,5
+ PRODUCTVERSION 4,9,0,5
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -71,13 +71,13 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "北京博华信智科技发展有限公司"
             VALUE "FileDescription", "BH自启动服务程序"
-            VALUE "FileVersion", "4, 9, 0, 0"
+            VALUE "FileVersion", "4, 9, 0, 5"
             VALUE "InternalName", "BHWatchDogService"
             VALUE "LegalCopyright", "版权所有 (博华信智) 2001-2011"
             VALUE "LegalTrademarks", "BHXZ"
             VALUE "OriginalFilename", "BHWatchDogService.exe"
             VALUE "ProductName", "BH自启动服务程序"
-            VALUE "ProductVersion", "4, 9, 0, 3"
+            VALUE "ProductVersion", "4, 9, 0, 5"
         END
     END
     BLOCK "VarFileInfo"

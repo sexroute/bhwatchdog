@@ -53,8 +53,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 4,9,0,4
- PRODUCTVERSION 4,9,0,3
+ FILEVERSION 4,9,0,5
+ PRODUCTVERSION 4,9,0,5
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -70,12 +70,12 @@ BEGIN
         BLOCK "080404b0"
         BEGIN
             VALUE "FileDescription", "TrayRefr 应用程序"
-            VALUE "FileVersion", "4, 9, 0, 4"
+            VALUE "FileVersion", "4, 9, 0, 5"
             VALUE "InternalName", "TrayRefr"
             VALUE "LegalCopyright", "版权所有 (C) 2013"
             VALUE "OriginalFilename", "TrayRefr.exe"
             VALUE "ProductName", " TrayRefr 应用程序"
-            VALUE "ProductVersion", "4, 9, 0, 3"
+            VALUE "ProductVersion", "4, 9, 0, 5"
         END
     END
     BLOCK "VarFileInfo"
